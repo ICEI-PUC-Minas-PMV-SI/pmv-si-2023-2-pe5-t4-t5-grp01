@@ -1,5 +1,5 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=12195785&assignment_repo_type=AssignmentRepo)
-# Título do Projeto
+# Rango
 
 `CURSO: Sistemas de Informação`
 
@@ -7,19 +7,20 @@
 
 `SEMESTRE: 1º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O projeto Rango é voltado para jovens que moram sozinhos e desejam aprender a cozinhar refeições simples e chinesas para si ou para amigos. O objetivo é fornecer uma plataforma que ofereça receitas práticas e econômicas, assim como dicas de culinária para esse público que recém saiu da casa dos pais e responsáveis.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
+* Rafael Silva
+* Anna Carolina
+* Cristiano Amorim
+* João Borges
+* Gabriel Amaral
+* Pedro Teixeira
 
 ## Orientador
 
-* Nome completo do professor 1
+* Nesley Daher
 
 # Planejamento
 
