@@ -1,89 +1,53 @@
 # Especificações do Projeto
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
+Alguns elementos são essenciais para um bom planejamento do sistema, tais como os tópicos a serem apresentados a seguir. Um dos tópicos de extrema importância são as personas, que consistem em representações de personagens fictícios com o objetivo de destacar o principal consumidor e interessado no produto criado. Além disso, as histórias de usuários desempenham um papel fundamental, pois consistem em descrições objetivas das necessidades do usuário do ponto de vista dele.
 
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+Outro elemento de grande importância são os requisitos funcionais, que englobam as funcionalidades e características esperadas do nosso programa. Por exemplo, isso envolve permitir que o usuário cadastre, edite, delete, favorite e comente receitas. Seguindo a mesma linha de raciocínio, temos os requisitos não funcionais, que abrangem como as funcionalidades serão entregues ao usuário do sistema, tais como uma página com carregamento rápido, interface intuitiva e proteção de dados . E por último, mas não menos importante, temos as restrições, que representam as limitações impostas à aplicação, como um site que contenha apenas receitas simples, de baixo custo e saudáveis.
+
+Essas seções visam contribuir para o resultado esperado do sistema de software.
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+1. Eduardo Silva, 18 anos, recentemente aprovado na faculdade federal do estado vizinho. Em busca de um curso mais especializado e de correr atrás de seu sonho tomou a difícil decisão de sair da casa dos pais e morar sozinho em um ambiente completamente desconhecido. Eduardo possui muita ambição, porém é acompanhado de pouca experiência de se cuidar sozinho e busca informação para não passar tanta dificuldade.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
-
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+2. Mariana Freitas, 25 anos, formada em letras pela USP. Mora sozinha a dois anos e leciona língua portuguesa em duas escolas diferentes. Possui uma vida muito corrida e raramente tem disposição e tempo para cozinhar, para remediar isso acaba pedindo delivery com grande frequência, mas nunca acaba o mês com o saldo positivo.
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+Eu, como cliente Eduardo, quero sugestões de receitas mais difíceis para fazer. Como estou morando sozinho e estudo na parte da manhã, tenho tempo livre durante a tarde e a noite. Minha ideia são refeições para o dia-a-dia, gosto de pratos que levam como ingredientes, carne vermelha, frutos-do-mar, especiarias de outras culturas, assim podendo ter a culinária como minha terapia.
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+Eu, como cliente Mariana, quero sugestões de receitas práticas de se fazer. Como dou aula em duas escolas diferentes, não tenho muito tempo para cozinhar, preciso que sejam refeições práticas para o meu dia-a-dia e que se encaixam na minha dieta. Tenho em mente pratos que levam, frango, peixe e salada.
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+Essa documentação visa detalhar a identificação de documentação precisa dos requisitos funcionais e não funcionais de um sistemas, contribuindo para a definição precisa do escopo, avaliação de viabilidade e comunicação eficaz entre todas as partes envolvidas em um projeto.
 
-### Requisitos Funcionais
+Diante disso, considerando as Histórias de Usuário fornecidas como entrada, elaboramos uma lista de requisitos que abrange tanto os aspectos funcionais quanto os não funcionais da solução proposta.
 
-|ID    | Descrição do Requisito  | Prioridade | Responsável |
-|------|-----------------------------------------|----| ----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA |  |
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA | |
+### Requisitos Funcionais (RF)
 
+- |RF-001| Permitir que o usuário cadastre receitas.
+- |RF-002| Permitir que o usuário edite as receitas postadas.
+- |RF-003| Permitir que o usuário exclua receitas.
+- |RF-004| Permitir que o usuário favorite as receitas.
+- |RF-005| Permitir que o usuário deixe comentários.
+- |RF-006| Fornecer uma interface de usuário intuitiva para cadastro e filtragem de receitas.
 
-### Requisitos não Funcionais
+### Requisitos Não Funcionais (RNF)
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+- |RNF-001| O site deve ser fácil de usar, com uma interface intuitiva que permita aos usuários navegar facilmente pelas receitas, comentar e favoritar receitas sem dificuldades.
+- |RNF-002| As páginas do site devem carregar rapidamente, com um tempo de resposta curto para proporcionar uma experiência de usuário ágil.
+- |RNF-003| Deve ser implementada segurança básica para proteger os dados dos usuários, como senhas e informações pessoais, contra acessos não autorizados.
+- |RNF-004| O site deve estar disponível a maior parte do tempo, com tempo de inatividade planejado mínimo para manutenção regular.
+- |RNF-005| O site deve funcionar bem nos navegadores mais comuns, como Chrome, Firefox e Safari.
+- |RNF-006| O site deve ser acessível para pessoas com deficiências, seguindo as diretrizes básicas de acessibilidade da Web.
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+Essa documentação de requisitos serve como um guia para o desenvolvimento, teste e validação da plataforma. A clareza e a abrangência desta especificação é importante para evitar retrabalho e problemas de escopo ao longo do ciclo de vida do projeto. Ela contribui para que o desenvolvimento da plataforma seja feito de modo estruturado e que a entrega atenda às expectativas dos usuários e aos critérios de qualidade estabelecidos.
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
-
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+| ID  | Restrição                                                                                                                                                                                                                                                                                |
+| --- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 01  | Em analogia ao fato de que a plataforma é voltada para um público onde, a maioria recém se tornou independente, e que grande parte não é familiarizado com o ambiente culinário, a plataforma se restringe a receitas de simples execução. Podendo ser executadas por todos os usuários. |
+| 02  | Seguindo a ideia de que muitas vezes o público alvo ainda não tem uma vida financeira estabelecida, o projeto é voltado para receitas de baixo custo, se tornando assim, abrangente para a maioria das classes sociais.                                                                  |
+| 03  | Pensando no bem-estar dos usuários, a plataforma é composta por uma biblioteca focada em receitas saudáveis, priorizando sempre que possível, o uso de ingredientes orgânicos e de baixo teor calórico.                                                                                  |
