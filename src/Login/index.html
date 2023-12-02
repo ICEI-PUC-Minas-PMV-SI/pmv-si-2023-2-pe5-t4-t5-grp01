@@ -1,45 +1,60 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" href="globals.css" />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="tela-login">
-      <div class="overlap-wrapper">
-        <div class="overlap">
-          <img class="rectangle" src="img/rectangle-9-1.png" />
-          <img class="login-header" src="img/loginheader.png" />
-          <div class="email">
-            <div class="overlap-group">
-              <div class="text-wrapper">Digite seu e-mail</div>
-              <img class="vector" src="img/vector-1-1.png" />
-            </div>
-          </div>
-          <div class="div">Novo aqui? Criar conta</div>
-          <div class="text-wrapper-2">Senha</div>
-          <img class="background" src="img/background-1.png" />
-          <div class="text-wrapper-3">E-mail</div>
-          <div class="senha">
-            <div class="overlap-2">
-              <div class="text-wrapper-4">Digite sua senha</div>
-              <img class="img" src="img/vector.svg" />
-              <img class="vector-2" src="img/vector-1.png" />
-            </div>
-          </div>
-          <div class="text-wrapper-5">Esqueceu sua senha?</div>
-          <footer class="footer">
-            <div class="overlap-3">
-              <div class="rectangle-2"></div>
-              <p class="p">Copyright © - Todos os direitos reservados</p>
-              <p class="quer-falar-com-a">
-                Quer falar com a gente? <br />Telefone: 31 xxxxxxxx<br />E-mail: rangosuporte@gmail.com
-              </p>
-            </div>
-          </footer>
-          <img class="loginbox" src="img/loginbox-1-1.png" />
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Rango</title>
+</head>
+<body >
+    
+    
+
+  
+
+    <div class="container">
+
+        <img class="img" src="Rango.svg">
+
+        <p class="name">E-mail</p>
+        <input id="email" name="email" onchange="logar()" type="email" placeholder="Digite seu e-mail">
+        
+        <p class="name">Senha</p>
+        <input id="password" name="password" type="password" placeholder="Digite sua senha">
+
+        <div class="btn_container">
+            <button class="btn-card" onclick="logar()">Entrar</button>
+            <button class="btn-card" onclick="">Registrar</button>
         </div>
-      </div>
+        
+        <button class="btn-card"  onclick="">Recuperar senha</button>
+
+
     </div>
-  </body>
+
+
+    <footer id="RangoFooter">
+        <div class="orange-background">
+          <div class="footer-content">
+            <div class="contact-info">
+              <div class="footer-text">
+                Quer falar com a gente?
+              </div>
+              <div class="footer-text">
+                Telefone: 31 xxxxxxxxxxx
+              </div>
+              <div class="footer-text">
+                Email: rangosuporte@gmail.com
+              </div>
+            </div>
+            <div class="footer-copyright">
+              Copyright © - Todos os direitos reservados
+            </div>
+          </div>
+        </div>
+
+    <script src="index.js"></script>
+</body>
+
 </html>
