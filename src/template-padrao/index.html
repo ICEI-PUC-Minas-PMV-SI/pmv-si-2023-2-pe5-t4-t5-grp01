@@ -5,141 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rango</title>
-    <link rel="shortcut icon" href="logo.svg" type="image/x-icon"> <!-- Ícone da Página -->
-    <style>
-        /* Importar Fontes do Google */
-        @import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap');
-
-        /* Estilos Básicos de CSS */
-        body {
-            font-family: 'Inter', sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-        }
-
-        /* Estilos do Cabeçalho */
-        header {
-            border-radius: 36px;
-            border: 3px solid #7C2D12;
-            background: #FB923C;
-            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-
-        header img {
-            width: 100px;
-            height: 75px;
-        }
-
-        header ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-        }
-
-        header li {
-            margin: 0 15px;
-        }
-
-        header li a {
-            color: #fff;
-            text-decoration: none;
-        }
-
-        header .login-button {
-            display: flex;
-            width: 100px;
-            height: 35px;
-            justify-content: center;
-            align-items: center;
-            flex-shrink: 0;
-            color: #F3F4F6;
-            text-align: center;
-            font-family: Roboto;
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: normal;
-            border-radius: 12px;
-            border: 1px solid #000;
-            background: #C2410C;
-            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-        }
-
-        /* Estilos do Conteúdo Principal */
-        main {
-            flex-grow: 1;
-            display: flex;
-            background-color: #F3F4F6;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
-
-        /* Estilos do Rodapé */
-        footer {
-            display: flex;
-            justify-content: space-between;
-            background-color: #FB923C;
-            color: white;
-            padding: 0 10px;
-            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
-        }
-
-        /* Estilos Responsivos para Telas Menores */
-        @media (max-width: 768px) {
-            header {
-                flex-direction: column;
-                text-align: center;
-            }
-
-            header ul {
-                margin-top: 10px;
-            }
-
-            header li {
-                margin: 10px;
-            }
-
-            header .login-button {
-                margin-right: 0;
-                margin-top: 10px;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="/styles/template.css">
 </head>
 
 <body>
-    <!-- Cabeçalho -->
     <header>
-        <img src="logo.svg" alt="Rango"> <!-- Logotipo -->
+        <img src="logo.svg" alt="Rango">
         <ul>
-            <li><a href="#">Início</a></li> <!-- Itens de Menu -->
-            <li><a href="#">Ajuda</a></li>
-            <li><a href="#">Sobre nós</a></li>
+            <li><a href="/src">Home</a></li>
+            <li><a href="/src/Ajuda">Ajuda</a></li>
+            <li><a href="/src/Sobre_nos">Sobre nós</a></li>
         </ul>
-        <button class="login-button">Login</button> <!-- Botão de Login -->
+        <a class="login-button" href="/src/Login">
+
+            Login
+        </a>
     </header>
-
-    <!-- Conteúdo Principal -->
     <main>
-        <h2>Área de Conteúdo Principal</h2>
+        <h2>Área do conteúdo principal</h2>
     </main>
-
-    <!-- Rodapé -->
     <footer>
         <div class="contact">
-            <p>Quer falar conosco?</p>
+            <p>Quer falar com a gente?</p>
             <p>Telefone: (xx) xxxx-xxxx</p>
-            <p>E-mail: contato@seudominio.com</p>
+            <p>E-mail: rangosuporte@gmail.com</p>
         </div>
-        <p>&copy; 2023 Rango</p> <!-- Aviso de Direitos Autorais -->
+        <p>&copy; 2023 Rango</p>
     </footer>
 </body>
 
