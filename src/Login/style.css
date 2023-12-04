@@ -1,251 +1,138 @@
-.tela-login {
-  background-color: #ffffff;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  /*box-sizing: border-box;*/
+  }
+
+  
+
+  body{
+    background-size:contain;
+    
+    
+  }
+
+  .rango{
+    margin: 0 auto;
+    padding: 25px;
+    font-size: 50px;
+  }
+  .top-bar {
+    height: 100px;
+    width: 100%;
+    background-color: #FB923C;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    padding:8px;
+    font-weight: bold;
+    display: flex;
+    margin-bottom: 2%;
+    top: 0%;
+  }
+
+  .container{
+    width: 30%;
+    height: 80%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: white;
+    margin-top: 8%;
+}
+
+ .img{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 100%;
+    display: block;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    height: 2.4rem;
+    border: 1px solid #000;
+    outline: none;
+    
+}
+
+.name{
+    padding: 5px;
+    font-size: 25px;
+}
+
+.btn_container{
   width: 100%;
+  display: flex;
+  
+}
+.btn-card{
+    margin: auto;
+    display: block;
+    width: 45%;
+    height: 2.5rem;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 2.5%;
+    border: 1px solid #FB923C;
+    background-color: white;
+    font-size: 1rem;
+
 }
 
-.tela-login .overlap-wrapper {
-  background-color: #ffffff;
-  width: 5019px;
-  height: 3293px;
+.btn-card:hover{
+    background-color: #F59E0B;
+    border:2px solid white;
+    color: black;
+    transition: 0.5s;
+
 }
 
-.tela-login .overlap {
+#RangoFooter {
+  width: 100%;
+  background: #fb923c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
-  width: 3740px;
-  height: 3218px;
+  margin-top: 100px;
+  border: none;
 }
 
-.tela-login .rectangle {
-  position: absolute;
-  width: 2453px;
-  height: 2816px;
-  top: 325px;
-  left: 1283px;
-  object-fit: cover;
+.footer-content {
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: space-between; */
+  width: 100%;
+  max-width: 1200px;
+  padding: 10px;
+  color: #fff;
 }
 
-.tela-login .login-header {
-  position: absolute;
-  width: 1663px;
-  height: 1792px;
-  top: 739px;
-  left: 1672px;
+.contact-info {
+  /* flex: 1; */
+  display: flex;
+  flex-direction: column;
 }
 
-.tela-login .email {
-  position: absolute;
-  width: 1265px;
-  height: 88px;
-  top: 1344px;
-  left: 1874px;
-}
-
-.tela-login .overlap-group {
-  position: relative;
-  width: 1263px;
-  height: 88px;
-  background-color: #d9d9d9;
-}
-
-.tela-login .text-wrapper {
-  position: absolute;
-  width: 846px;
-  top: 13px;
-  left: 105px;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 50px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.tela-login .vector {
-  position: absolute;
-  width: 61px;
-  height: 50px;
-  top: 23px;
-  left: 9px;
-  object-fit: cover;
-}
-
-.tela-login .div {
-  position: absolute;
-  width: 893px;
-  height: 75px;
-  top: 2332px;
-  left: 2127px;
-  text-shadow: 0px 4px 4px #00000040;
-  font-family: "Inter", Helvetica;
-  font-weight: 700;
-  color: #000000;
-  font-size: 64px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.tela-login .text-wrapper-2 {
-  position: absolute;
-  width: 221px;
-  height: 75px;
-  top: 1475px;
-  left: 1871px;
-  font-family: "Inter", Helvetica;
-  font-weight: 700;
-  color: #000000;
-  font-size: 64px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.tela-login .background {
-  position: absolute;
-  width: 529px;
-  height: 408px;
-  top: 750px;
-  left: 2245px;
-  object-fit: cover;
-}
-
-.tela-login .text-wrapper-3 {
-  position: absolute;
-  width: 221px;
-  height: 75px;
-  top: 1226px;
-  left: 1871px;
-  font-family: "Inter", Helvetica;
-  font-weight: 700;
-  color: #000000;
-  font-size: 64px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.tela-login .senha {
-  position: absolute;
-  width: 3139px;
-  height: 1681px;
-  top: 0;
-  left: 0;
-}
-
-.tela-login .overlap-2 {
-  position: relative;
-  width: 1266px;
-  height: 91px;
-  top: 1590px;
-  left: 1871px;
-  background-color: #d9d9d9;
-}
-
-.tela-login .text-wrapper-4 {
-  position: absolute;
-  width: 637px;
-  top: 20px;
-  left: 66px;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 50px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.tela-login .img {
-  position: absolute;
-  width: 34px;
-  height: 41px;
-  top: 25px;
-  left: 11px;
-}
-
-.tela-login .vector-2 {
-  position: absolute;
-  width: 60px;
-  height: 51px;
-  top: 31px;
-  left: 1173px;
-  object-fit: cover;
-}
-
-.tela-login .text-wrapper-5 {
-  position: absolute;
-  width: 333px;
-  top: 1747px;
-  left: 2804px;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 30px;
+.footer-text {
+  font-size: 24px;
+  margin: 10px 0;
+  margin-top: 10px;
+  margin-left: 10px;
   text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
 }
 
-.tela-login .footer {
+.footer-copyright {
+  font-size: 24px;
+  text-align: right;
   position: absolute;
-  width: 2457px;
-  height: 438px;
-  top: 2780px;
-  left: 1283px;
-  background-color: transparent;
-}
-
-.tela-login .overlap-3 {
-  position: relative;
-  width: 2453px;
-  height: 438px;
-}
-
-.tela-login .rectangle-2 {
-  position: absolute;
-  width: 2453px;
-  height: 361px;
-  top: 0;
-  left: 0;
-  background-color: #fb923c;
-}
-
-.tela-login .p {
-  position: absolute;
-  width: 1162px;
-  top: 200px;
-  left: 1291px;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: #f3f4f6;
-  font-size: 55px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.tela-login .quer-falar-com-a {
-  position: absolute;
-  width: 1028px;
-  top: 50px;
-  left: 102px;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 60px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.tela-login .loginbox {
-  position: absolute;
-  width: 977px;
-  height: 80px;
-  top: 1906px;
-  left: 2017px;
-  object-fit: cover;
+  right: 10px;
+  bottom: 10px;
 }
