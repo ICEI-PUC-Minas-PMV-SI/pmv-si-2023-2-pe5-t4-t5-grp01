@@ -11,9 +11,11 @@ const quantidadePorcoes = document.getElementById("quantidade-porcoes");
 const tempoNecessario = document.getElementById("tempo-necessario");
 const tituloReceita = document.getElementById("titulo-receita");
 const detalhesReceita = document.getElementById("detalhes-receita");
+const fotoReceita = document.getElementById("foto-receita");
 
 ingredientes.innerHTML = receitaDesejada.ingredientes.join("<br/>");
 modoDePreparo.innerHTML = receitaDesejada.modoPreparo;
+fotoReceita.src = "../" + receitaDesejada.srcImagem;
 quantidadePorcoes.innerHTML = receitaDesejada.porcoes + " porções";
 tempoNecessario.innerHTML = receitaDesejada.tempoPreparo;
 tituloReceita.innerHTML = receitaDesejada.nome;
