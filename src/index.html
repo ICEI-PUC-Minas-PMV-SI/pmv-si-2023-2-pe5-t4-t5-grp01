@@ -9,6 +9,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="./template-padrao/styles.css">
     <link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body>
@@ -20,7 +21,6 @@
             <li><a href="/src/Sobre_nos">Sobre nós</a></li>
         </ul>
         <a class="login-button" href="/src/Login">
-
             Login
         </a>
     </header>
@@ -29,66 +29,7 @@
             <input id="RangoInput" type="text" placeholder="Pesquisar Receitas" />
             <button id="FilterButton">Filtros</button>
         </div>
-        <div class="image-row">
-            <a class="card" href="/src/Receita">
-                <div class="image-wrapper">
-                    <img class="MyImage" src="public/images/omelete.png" alt="Omelette">
-                    <div class="image-tag">
-                        <div class="image-text">Omelette</div>
-                    </div>
-                </div>
-                <div class="image-caption-text">
-                    Por <span class="underline-text">Marcos</span>
-                </div>
-                <div>
-                    <img src="public/images/estrelas.svg" alt="Estrelas" class="estrelas">
-                </div>
-            </a>
-            <a class="card" href="/src/Receita">
-                <div class="image-wrapper">
-                    <img class="MyImage" src="public/images/pizza.png" alt="Omelette">
-                    <div class="image-tag">
-                        <div class="image-text">Pizza</div>
-                    </div>
-                </div>
-                <div class="image-caption-text">
-                    Por <span class="underline-text">Giovanna</span>
-                </div>
-                <div>
-                    <img src="public/images/estrelas.svg" alt="Estrelas" class="estrelas">
-                </div>
-            </a>
-        </div>
-        <div class="image-row">
-            <a class="card" href="/src/Receita">
-                <div class="image-wrapper">
-                    <img class="MyImage" src="public/images/macarrão.png" alt="Omelette">
-                    <div class="image-tag">
-                        <div class="image-text">Macarrão</div>
-                    </div>
-                </div>
-                <div class="image-caption-text">
-                    Por <span class="underline-text">Aline</span>
-                </div>
-                <div>
-                    <img src="public/images/estrelas.svg" alt="Estrelas" class="estrelas">
-                </div>
-            </a>
-            <a class="card" href="/src/Receita">
-                <div class="image-wrapper">
-                    <img class="MyImage" src="public/images/salada.png" alt="Omelette">
-                    <div class="image-tag">
-                        <div class="image-text">Salada</div>
-                    </div>
-                </div>
-                <div class="image-caption-text">
-                    Por <span class="underline-text">Júlio</span>
-                </div>
-                <div>
-                    <img src="public/images/estrelas.svg" alt="Estrelas" class="estrelas">
-                </div>
-            </a>
-        </div>
+        <div id="receitas-container"></div>
     </main>
     <footer>
         <div class="contact">
@@ -99,5 +40,8 @@
         <p>&copy; 2023 Rango</p>
     </footer>
 </body>
+
+<script src="index.js"></script>
+
 
 </html>
