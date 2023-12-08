@@ -22,18 +22,19 @@
     <p class="name">Senha</p>
     <input id="password" name="password" type="password" placeholder="Digite sua senha">
 
-    <div class="btn_container">
-      <button class="btn-card" onclick="logar()">Entrar</button>
-      <button class="btn-card" id="btnRegistrar" onclick="irParaRegistro()">Registrar</button>
-    </div>
+    <p class="name">Confirme sua senha</p>
+    <input id="confirmPassword" name="confirmPassword" type="password" placeholder="Digite sua senha novamente">
 
-    <button class="btn-card" onclick="">Recuperar senha</button>
+    <div class="btn_container">
+      <button class="btn-card" id="btnVoltar" onclick="voltarParaLogin()">Voltar</button>
+      <button class="btn-card" onclick="registrar()">Criar Conta</button>
+    </div>
   </div>
 
   <footer id="RangoFooter">
     <div class="orange-background">
       <div class="footer-content">
-        <div class"contact-info">
+        <div class="contact-info">
           <div class="footer-text">
             Quer falar com a gente?
           </div>

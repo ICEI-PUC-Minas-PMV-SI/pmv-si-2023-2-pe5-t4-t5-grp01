@@ -1,32 +1,24 @@
+function logar() {
+  const email = document.getElementById("email").value;
+  const password = document.getElementById("password").value;
 
+  // Login
+  const storedData = localStorage.getItem('userData');
+  if (storedData) {
+      const userData = JSON.parse(storedData);
 
-
- let inputEmail = document.getElementById("email");
- let inputPassword = document.getElementById("password");
-
-
- function logar(){
-     let done = 0;
-     let email = inputEmail.value;
-     let password = inputPassword.value;
-     console.log("Entrando...");
-         
-         
-     if (email == "admin" && password == "admin") {
-       window.location = "profile.html";
-       done = 1;
-       console.log("Entrou!")
-     }else if (done == 0) {
-       alert("Dados incorretos, tente novamente");
-       console.log("Erro ao entrar!")
-    }
+      if (email === userData.email && password === userData.password) {
+          // Redirecionar para a home caso as credenciais estejam corretas
+          window.location.href = '../index.html';
+      } else {
+          alert('Dados incorretos, tente novamente');
+      }
+  } else {
+      alert('Usuário não registrado. Registre-se primeiro.');
+  }
 }
 
-
-
-
-
-//IF(COUNT(SELECT("Usuarios", Email = [inputusuario] && Password = [inputpassword])) = 1){
-          //LOGOU
-        //ELSE
-        //nao logou
+function irParaRegistro() {
+  // Redirecionar para a tela de registro
+  window.location.href = '../Register';
+}

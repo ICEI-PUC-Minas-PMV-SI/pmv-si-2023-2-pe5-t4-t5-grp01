@@ -16,9 +16,9 @@
     <header>
         <img src="logo.svg" alt="Rango">
         <ul>
-            <li><a href="/src">Home</a></li>
-            <li><a href="/src/Ajuda">Ajuda</a></li>
-            <li><a href="/src/Sobre_nos">Sobre nós</a></li>
+            <li><a href="/src" id="homeLink">Home</a></li>
+            <li><a href="/src/Ajuda" id="ajudaLink">Ajuda</a></li>
+            <li><a href="/src/Sobre_nos" id="sobreLink">Sobre nós</a></li>
         </ul>
         <a class="login-button" href="/src/Login">
             Login
@@ -45,3 +45,13 @@
 
 
 </html>
+<style>
+    /* Adicione estilos para destacar os spans quando o mouse passa sobre eles */
+    #homeLink:hover,
+    #ajudaLink:hover,
+    #RangoButton:hover,
+    #sobreLink:hover {
+        color: #ff5733; /* Cor de destaque ao passar o mouse */
+        cursor: pointer; /* Altera o cursor para indicar interação */
+    }
+</style>
