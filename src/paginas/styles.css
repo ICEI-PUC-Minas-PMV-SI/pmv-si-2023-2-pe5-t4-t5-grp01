@@ -1,3 +1,11 @@
+#homeLink:hover,
+#ajudaLink:hover,
+#RangoButton:hover,
+#sobreLink:hover {
+  color: #ff5733; /* Cor de destaque ao passar o mouse */
+  cursor: pointer; /* Altera o cursor para indicar interação */
+}
+
 #SearchContainer {
   margin-bottom: 40px;
   display: flex;
@@ -11,7 +19,7 @@ main {
 }
 .image-row {
   display: flex;
-  gap: 60px;
+  gap: 80px;
 }
 
 .image-wrapper {
@@ -24,6 +32,7 @@ main {
 }
 .card {
   display: flex;
+  margin: 20px;
   flex-direction: column;
   align-items: center;
   justify-content: center;

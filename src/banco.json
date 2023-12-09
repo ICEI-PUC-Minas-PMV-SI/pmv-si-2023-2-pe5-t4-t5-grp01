@@ -1,0 +1,55 @@
+{
+  "receitas": [
+    {
+      "id": 1,
+      "nome": "Omelete",
+      "srcImagem": "../public/images/omelete.png",
+      "modoPreparo": "Bata os ovos e tempere com sal e pimenta. Aqueça uma frigideira e despeje os ovos batidos. Cozinhe até firmar.",
+      "tempoPreparo": "15 minutos",
+      "porcoes": 2,
+      "detalhesReceita": "Uma receita rápida e deliciosa para um café da manhã saudável.",
+      "ingredientes": ["3 ovos", "Sal a gosto", "Pimenta a gosto"]
+    },
+    {
+      "id": 2,
+      "nome": "Pizza",
+      "srcImagem": "../public/images/pizza.png",
+      "modoPreparo": "Prepare a massa da pizza, adicione molho de tomate, queijo e os ingredientes de sua escolha. Asse no forno.",
+      "tempoPreparo": "30 minutos",
+      "porcoes": 4,
+      "detalhesReceita": "Uma pizza caseira fácil de fazer para agradar a família.",
+      "ingredientes": [
+        "Massa de pizza",
+        "Molho de tomate",
+        "Queijo",
+        "Ingredientes a gosto"
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "Macarrão",
+      "srcImagem": "../public/images/macarrão.png",
+      "modoPreparo": "Cozinhe o macarrão em água com sal. Prepare um molho de sua escolha. Misture o macarrão cozido e o molho.",
+      "tempoPreparo": "20 minutos",
+      "porcoes": 3,
+      "detalhesReceita": "Um prato simples e saboroso para qualquer ocasião.",
+      "ingredientes": ["Macarrão", "Molho de tomate", "Queijo ralado"]
+    },
+    {
+      "id": 4,
+      "nome": "Salada",
+      "srcImagem": "../public/images/salada.png",
+      "modoPreparo": "Lave e corte os vegetais. Misture-os em uma tigela. Tempere com azeite, vinagre, sal e pimenta.",
+      "tempoPreparo": "15 minutos",
+      "porcoes": 4,
+      "detalhesReceita": "Uma salada refrescante e saudável para acompanhar qualquer refeição.",
+      "ingredientes": ["Alface", "Tomate", "Cenoura", "Azeite", "Vinagre"]
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "João"
+    }
+  ]
+}
