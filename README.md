@@ -7,7 +7,7 @@
 
 `SEMESTRE: 1º`
 
-O projeto Rango é voltado para jovens que moram sozinhos e desejam aprender a cozinhar refeições simples e chinesas para si ou para amigos. O objetivo é fornecer uma plataforma que ofereça receitas práticas e econômicas, assim como dicas de culinária para esse público que recém saiu da casa dos pais e responsáveis.
+É muito comum entre os jovens que acabaram de sair da casa dos pais, o gasto excessivo com alimentos ultraprocessados, que possuem uma péssima distribuição dos macros nutrientes e deterioram cada vez mais a saúde dos consumidores, mas isso está com os dias contados! Rango veio para mudar a sua qualidade de vida, com receitas saudáveis, saborosas, práticas e o melhor de tudo, econômicas! Assim, contribuindo dia a dia com o seu processo de recém independência e com sua saúde! A plataforma disponibiliza uma interface intuitiva e eficaz, para proporcionar a melhor e mais rápida solução para o usuário.
 
 ## Integrantes
 
