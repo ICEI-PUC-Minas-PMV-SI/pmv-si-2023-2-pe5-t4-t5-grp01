@@ -48,7 +48,7 @@ header li a {
 
 header .login-button {
   display: flex;
-  width: 100px;
+  width: 200px;
   height: 35px;
   justify-content: center;
   align-items: center;
@@ -70,7 +70,7 @@ main {
   width: 70vw;
   height: 100%;
   margin: 15px auto;
-  overflow: hidden;
+  overflow-y: auto;
   flex: 1;
   display: flex;
   flex-direction: column;

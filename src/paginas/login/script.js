@@ -3,19 +3,19 @@ function logar() {
   const password = document.getElementById("password").value;
 
   // Login
-  const storedData = localStorage.getItem("userData");
-  if (storedData) {
-    const userData = JSON.parse(storedData);
+  const banco = JSON.parse(window.localStorage.getItem("banco"));
 
-    if (email === userData.email && password === userData.password) {
-      // Redirecionar para a home caso as credenciais estejam corretas
-      window.location.href = "../index.html";
-    } else {
-      alert("Dados incorretos, tente novamente");
-    }
-  } else {
-    alert("Usuário não registrado. Registre-se primeiro.");
+  const usuario = banco.usuarios.find((usuario) => usuario.email === email);
+  if (!usuario) return alert("O usuário não existe, por favor registre-se.");
+  if (usuario.senha !== password) {
+    return alert("Senha incorreta.");
   }
+  localStorage.setItem(
+    "usuarioLogado",
+    JSON.stringify({ email, nome: usuario.nome })
+  );
+  window.location.href = "../index.html";
+  return;
 }
 
 function irParaRegistro() {

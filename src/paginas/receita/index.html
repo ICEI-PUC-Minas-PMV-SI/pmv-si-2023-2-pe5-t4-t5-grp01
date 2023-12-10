@@ -30,7 +30,7 @@
                         <div id="titulo-receita" style="text-align: center; font-weight: bold; padding: 10px;"></div>
                     </div>
                     <div style="display: flex; justify-content: flex-end; align-items: center; padding: 5px;">
-                            <button>Favoritar</button>
+                        <button id="favoritar"></button>
                     </div>
                     <div class="box"><img class="rectangle" id="foto-receita" style="width: 100%; height: 250px;"
                             src="../public/images/omelete.png" /></div>
@@ -46,7 +46,7 @@
                                 d="M27.0316 16.2551V29.0302L35.2772 35.3852C35.6106 35.6316 35.9025 35.9609 36.1358 36.3538C36.3691 36.7468 36.539 37.1955 36.6358 37.6738C36.7326 38.1521 36.7542 38.6503 36.6994 39.1395C36.6446 39.6286 36.5145 40.0988 36.3167 40.5226C36.1189 40.9464 35.8573 41.3154 35.5473 41.6079C35.2372 41.9004 34.8849 42.1106 34.5109 42.2263C34.1369 42.342 33.7487 42.3607 33.369 42.2815C32.9893 42.2023 32.6257 42.0267 32.2994 41.7649L22.6469 34.325C22.218 33.9946 21.8629 33.5271 21.6164 32.9681C21.3698 32.4091 21.2402 31.7776 21.2401 31.1351V16.2551C21.2401 15.2685 21.5452 14.3223 22.0882 13.6246C22.6313 12.927 23.3678 12.5351 24.1358 12.5351C24.9038 12.5351 25.6404 12.927 26.1834 13.6246C26.7265 14.3223 27.0316 15.2685 27.0316 16.2551ZM47.3018 7.57507C46.5338 7.57507 45.7973 7.967 45.2542 8.66463C44.7111 9.36227 44.4061 10.3085 44.4061 11.2951V13.5798C43.3901 12.1321 42.3356 10.6937 41.199 9.21497C37.8451 4.90682 33.5772 1.96389 28.9287 0.753905C24.2803 -0.456081 19.4573 0.12053 15.0625 2.41169C10.6676 4.70285 6.8958 8.60697 4.2183 13.6362C1.54079 18.6655 0.0763233 24.5968 0.00788443 30.6892C-0.0605544 36.7815 1.27007 42.7647 3.83349 47.8911C6.39692 53.0175 10.0795 57.0598 14.421 59.5129C18.7626 61.966 23.5706 62.7212 28.2443 61.684C32.918 60.6469 37.2502 57.8634 40.6995 53.6813C41.2582 53.0039 41.5846 52.069 41.6067 51.0825C41.6289 50.0959 41.3451 49.1384 40.8177 48.4206C40.2904 47.7029 39.5627 47.2837 38.7947 47.2552C38.0267 47.2267 37.2814 47.5913 36.7227 48.2687C34.1016 51.4464 30.8098 53.5616 27.2585 54.3501C23.7072 55.1386 20.0537 54.5654 16.7545 52.7022C13.4553 50.8389 10.6565 47.7682 8.70775 43.8736C6.75901 39.979 5.74669 35.4331 5.79725 30.8038C5.8478 26.1744 6.95898 21.6668 8.992 17.844C11.025 14.0211 13.8898 11.0525 17.2284 9.30889C20.567 7.56529 24.2315 7.12401 27.7643 8.04016C31.297 8.95631 34.5412 11.1893 37.0919 14.4602C38.5205 16.3171 39.8211 18.1151 41.0832 19.9751H37.6493C36.8813 19.9751 36.1448 20.367 35.6017 21.0646C35.0587 21.7623 34.7536 22.7085 34.7536 23.6951C34.7536 24.6817 35.0587 25.6279 35.6017 26.3255C36.1448 27.0231 36.8813 27.4151 37.6493 27.4151H47.3018C48.0698 27.4151 48.8064 27.0231 49.3494 26.3255C49.8925 25.6279 50.1976 24.6817 50.1976 23.6951V11.2951C50.1976 10.3085 49.8925 9.36227 49.3494 8.66463C48.8064 7.967 48.0698 7.57507 47.3018 7.57507Z"
                                 fill="black" />
                         </svg>
-                        <div class="text-wrapper" id="tempo-necessario">4 minutos</div>
+                        <div class="text-wrapper" id="tempo-necessario"></div>
 
                         <div>
                             <svg xmlns="http://www.w3.org/2000/svg" width="51" height="63" viewBox="0 0 51 63"
@@ -56,7 +56,7 @@
                                     fill="black" />
                             </svg>
                         </div>
-                        <div class="text-wrapper" id="quantidade-porcoes">Uma porção</div>
+                        <div class="text-wrapper" id="quantidade-porcoes"></div>
                     </section>
                     <p class="text-wrapper" id="detalhes-receita" style="color: #000;
                     font-family: Roboto;
@@ -88,10 +88,7 @@
                         font-style: normal;
                         font-weight: 500;
                         line-height: normal;">
-                            2
-                            ovos&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <br />1 fatia de presunto<br />tempero verde a gosto<br />1 pitada de sal<br />2 fatias de
-                            queijo
+
                         </p>
                     </div>
                     <section class="screen" style="border-radius: 12px;
@@ -116,55 +113,13 @@
                         font-style: normal;
                         font-weight: 500;
                         line-height: normal;">
-                            Bata os 2 ovos<br />Após ter batido bem, coloque-o na frigideira já untada com óleo,
-                            acrescente o sal, o
-                            presunto picado em quadradinhos e as duas fatias de queijo (não precisa picar o
-                            queijo).<br />Coloque os
-                            temperos a gosto, espere ficar firme, e vire o omelete.<br />Está pronto um omelete
-                            delicioso, bom apetite!
+
                         </p>
                     </div>
                 </div>
             </div>
         </section>
-        <section style="width: 800px; padding: 15px;">
-            <p style="padding: 2px; font-weight: bolder;">
-                2 Comentários</p>
-            <div style="display: flex; align-items: center; gap: 20px;">
-                <img src="../public/images/user.jpg" style="
-                    border: 2px solid #000;
-                    width: 70px;
-                    height: 70px;
-                    border-radius: 70px;
-                    " />
-                <div style="display: flex; flex-direction: column;">
-                    <div style="display: flex; gap: 5px; align-items: center;">
-                        <p style="font-weight: bold;">Sandra Almeida</p>
-                        <p style="font-weight: lighter; font-size: 12px;">2 semanas atrás</p>
-                    </div>
-                    <p style="font-size: 14px;">Muito bom</p>
-
-                </div>
-            </div>
-            <div style="display: flex; align-items: center; gap: 20px;">
-                <img src="../public/images/user.jpg" style="
-                border: 2px solid #000;
-                width: 70px;
-                height: 70px;
-                border-radius: 70px;
-                " />
-                <div style="display: flex; flex-direction: column;">
-                    <div style="display: flex; gap: 5px; align-items: center;">
-                        <p style="font-weight: bold;">Sandra Almeida</p>
-                        <p style="font-weight: lighter; font-size: 12px;">2 semanas atrás</p>
-                    </div>
-                    <p style="font-size: 14px;">O melhor omelete que eu ja comi</p>
-
-                </div>
-            </div>
-        </section>
     </main>
-
     <footer>
         <div class=" contact">
             <p>Quer falar com a gente?</p>
@@ -176,5 +131,6 @@
     </footer>
 </body>
 <script src="script.js"></script>
+<script src="../template-padrao/script.js"></script>
 
 </html>

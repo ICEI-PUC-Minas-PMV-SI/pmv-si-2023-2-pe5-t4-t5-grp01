@@ -27,7 +27,11 @@
     <main>
         <div id="SearchContainer">
             <input id="RangoInput" type="text" placeholder="Pesquisar Receitas" />
-            <button id="FilterButton">Filtros</button>
+            <button id="FilterButton">
+                <input type="checkbox" id="FilterCheckbox" />
+                <label for="FilterCheckbox">Ver apenas favoritas</label>
+
+            </button>
         </div>
         <div id="receitas-container"></div>
     </main>
@@ -41,7 +45,9 @@
     </footer>
 </body>
 
-<script type="text/javascript" src="script.js"></script>
+<script src="script.js"></script>
+<script src="./template-padrao/script.js"></script>
+
 
 
 </html>

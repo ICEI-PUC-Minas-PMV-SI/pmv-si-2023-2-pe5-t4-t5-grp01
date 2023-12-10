@@ -1,9 +1,10 @@
 function registrar() {
   const email = document.getElementById("email").value;
+  const fullName = document.getElementById("name").value;
   const password = document.getElementById("password").value;
   const confirmPassword = document.getElementById("confirmPassword").value;
 
-  if (!email || !password || !confirmPassword) {
+  if (!email || !password || !confirmPassword || !fullName) {
     alert("Por favor, preencha todos os campos.");
     return;
   }
@@ -18,8 +19,13 @@ function registrar() {
     return;
   }
 
-  const userData = { email, password };
-  localStorage.setItem("userData", JSON.stringify(userData));
+  const userData = { nome: fullName, email, senha: password, receitasFavoritas: [] };
+  const currentDatabase = JSON.parse(localStorage.getItem("banco"));
+  const newDatabase = {
+    ...currentDatabase,
+    usuarios: [...currentDatabase.usuarios, userData],
+  };
+  localStorage.setItem("banco", JSON.stringify(newDatabase));
 
   // Redirecionar para a tela de login
   window.location.href = "../login";
