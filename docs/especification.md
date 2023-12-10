@@ -26,16 +26,15 @@ Diante disso, considerando as Histórias de Usuário fornecidas como entrada, el
 
 ### Requisitos Funcionais (RF)
 
-- |RF-001| Permitir que o usuário cadastre receitas.
-- |RF-002| Permitir que o usuário edite as receitas postadas.
-- |RF-003| Permitir que o usuário exclua receitas.
-- |RF-004| Permitir que o usuário favorite as receitas.
-- |RF-005| Permitir que o usuário deixe comentários.
-- |RF-006| Fornecer uma interface de usuário intuitiva para cadastro e filtragem de receitas.
+- |RF-001| Menu de receitas, possibilitando o acesso à página da receita escolhida.
+- |RF-002| Busca de receitas específcas, utilizado mêtodo de filtragem de acordo com os interesses do usuário.
+- |RF-003| Ferramenta de favoritos, possibilitando que o usuário salve uma receita para acessá-la posteriormente.
+- |RF-004| Página de cadastro, possibilitando a criação de uma conta, para que o usuário usufrua de todas ferramentas do site.
+- |RF-005| Página de login para que o usuário acesse sua conta, podendo acessar todas informações cadastradas e receitas favoritadas.
 
 ### Requisitos Não Funcionais (RNF)
 
-- |RNF-001| O site deve ser fácil de usar, com uma interface intuitiva que permita aos usuários navegar facilmente pelas receitas, comentar e favoritar receitas sem dificuldades.
+- |RNF-001| O site deve ser fácil de usar, com uma interface intuitiva que permita aos usuários navegar facilmente pelas receitas e favoritar receitas sem dificuldades.
 - |RNF-002| As páginas do site devem carregar rapidamente, com um tempo de resposta curto para proporcionar uma experiência de usuário ágil.
 - |RNF-003| Deve ser implementada segurança básica para proteger os dados dos usuários, como senhas e informações pessoais, contra acessos não autorizados.
 - |RNF-004| O site deve estar disponível a maior parte do tempo, com tempo de inatividade planejado mínimo para manutenção regular.
