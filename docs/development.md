@@ -5,9 +5,9 @@ Implementação do sistema descritas por meio dos requisitos funcionais e/ou nã
 Para cada requisito funcional, pode ser entregue um artefato desse tipo.
 
 O professor Rommel Carneiro apresenta alguns exemplos prontos para serem utilizados como referência:
-- Login do sistema: [https://repl.it/@rommelpuc/LoginApp](https://repl.it/@rommelpuc/LoginApp) 
-- Cadastro de Contatos: [https://repl.it/@rommelpuc/Cadastro-de-Contatos](https://repl.it/@rommelpuc/Cadastro-de-Contatos)
 
+- Login do sistema: [https://repl.it/@rommelpuc/LoginApp](https://repl.it/@rommelpuc/LoginApp)
+- Cadastro de Contatos: [https://repl.it/@rommelpuc/Cadastro-de-Contatos](https://repl.it/@rommelpuc/Cadastro-de-Contatos)
 
 > **Links Úteis**:
 >
@@ -25,18 +25,41 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito | Prioridade | Artefato Criado |
-|------|------------------------|------------|-----------------|
-|RF-001| O sistema deve exibir as notícias mais populares. | ALTA | index.html |
-|RF-002| Usuários autenticados podem registrar novas notícias. | ALTA | cadastro-noticia.html |
+| ID     | Descrição do Requisito                                               | Prioridade | Artefato Criado      |
+| ------ | -------------------------------------------------------------------- | ---------- | -------------------- |
+| RF-001 | O sistema deve exibir o hub de receitas.                             | ALTA       | index.html           |
+| RF-002 | O sistema deve exibir as receitas individualmente com mais detalhes. | ALTA       | receita/index.html   |
+| RF-003 | O usuário deve poder favoritar as receitas.                          | MÉDIA      | receita/index.html   |
+| RF-004 | O usuário deve poder criar uma conta.                                | ALTA       | registrar/index.html |
+| RF-005 | O usuário deve poder acessar sua conta.                              | ALTA       | login/index.html     |
+| RF-006 | O sistema deve informar ao usuário sobre a proposta do produto.      | MÉDIA      | sobre-nos/index.html |
+| RF-007 | O sistema deve informar ao usuário sobre as capacidades do produto.  | MÉDIA      | ajuda/index.html     |
+| RF-008 | O usuário deve poder pesquisar as receitas.                          | ALTA       | index.html           |
+| RF-009 | O usuário deve poder filtrar as receitas.                            | ALTA       | index.html           |
 
 ## Descrição das estruturas:
 
-## Notícia
-|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
-|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
-| Id             | Numero (Inteiro)  | Identificador único da notícia            | 1                                              |
-| Título         | Texto             | Título da notícia                         | Sistemas de Informação PUC Minas é o melhor                                   |
-| Conteúdo       | Texto             | Conteúdo da notícia                       | Sistemas de Informação da PUC Minas é eleito o melhor curso do Brasil                            |
-| Id do usuário  | Numero (Inteiro)  | Identificador do usuário autor da notícia | 1                                              |
+## Receita
 
+|   **Nome**    | **Tipo**         | **Descrição**                  | **Exemplo**                                                           |
+| :-----------: | ---------------- | ------------------------------ | --------------------------------------------------------------------- |
+|      Id       | Numero (Inteiro) | Identificador único da receita | 1                                                                     |
+|    Título     | Texto            | Título da receita              | Batata frita                                                          |
+|   Conteúdo    | Texto            | Conteúdo da receita            | Sistemas de Informação da PUC Minas é eleito o melhor curso do Brasil |
+| Id do usuário | Texto            | Nome do usuário                | Gabriel                                                               |
+
+## Usuário
+
+|     **Nome**     | **Tipo**         | **Descrição**                  | **Exemplo**               |
+| :--------------: | ---------------- | ------------------------------ | ------------------------- |
+|        Id        | Numero (Inteiro) | Identificador único do usuário | 1                         |
+| Email do usuário | Texto            | Email do usuário no sistema    | ricardoroca6212@gmail.com |
+|      Senha       | Texto            | Senha do usuário               | (senha criptografada)     |
+
+## Favoritos
+
+|    **Nome**    | **Tipo**         | **Descrição**                   | **Exemplo** |
+| :------------: | ---------------- | ------------------------------- | ----------- |
+| Id do favorito | Numero (Inteiro) | Identificador único do favorito | 3           |
+| Id do usuário  | Numero (inteiro) | Identificador único do usuário  | 2           |
+| Id da receita  | Numero (inteiro) | Identificador único da receita  | 1           |
