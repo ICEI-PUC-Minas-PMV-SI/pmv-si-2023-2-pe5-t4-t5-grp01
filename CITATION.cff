@@ -2,27 +2,25 @@ cff-version: 1.0.1
 message: Please cite this software using these metadata.
 title:
 authors:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
+  - family-names: Amorim
+    given-names: Cristiano Henrique
+  - family-names: Teixeira Silva
+    given-names: Pedro Augusto
+  - family-names: da Silva
+    given-names: Rafael Vinícius
+  - family-names: Saldanha de Lima
+    given-names: Anna Carolina
+  - family-names: Borges
+    given-names: João Alberto Raymundo
   - name-suffix: Professor XXXX
     affiliation: PUC Minas
     family-names:
     given-names:
 keywords:
-  -
-  -
+  - receitas
+  - comidas
+  - praticidade
+  - jovem
 repository-code:
 license: CC-BY-4.0
 version: 1.0.0
